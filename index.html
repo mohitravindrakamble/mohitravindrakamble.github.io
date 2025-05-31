@@ -2368,22 +2368,6 @@ body:not(.light-mode) .dark-img {
             skillsObserver.observe(skillsSection);
         }
 
-        // Contact form handling
-        document.querySelector('.submit-btn').addEventListener('click', function(e) {
-            e.preventDefault();
-            this.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
-            
-            setTimeout(() => {
-                this.innerHTML = '<i class="fas fa-check"></i> Message Sent!';
-                this.style.background = '#22c55e';
-                
-                setTimeout(() => {
-                    this.innerHTML = 'Send Message';
-                    this.style.background = '';
-                }, 2000);
-            }, 1500);
-        });
-
         // Load More button functionality
         document.getElementById('loadMoreBtn').addEventListener('click', function() {
             this.classList.add('loading');
