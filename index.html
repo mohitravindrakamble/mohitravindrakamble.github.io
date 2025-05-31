@@ -971,7 +971,7 @@ body:not(.light-mode) .dark-img {
             padding: 25px;
             border: 1px solid rgba(255, 127, 0, 0.1);
             display: flex;
-            align-items: center;
+            align-items: flex-start;
             gap: 15px;
             transition: all 0.3s ease;
             opacity: 0;
@@ -1014,8 +1014,8 @@ body:not(.light-mode) .dark-img {
             height: 40px;
             border-radius: 8px;
             display: flex;
-            align-items: center;
-            justify-content: center;
+            align-items: center !important;
+            justify-content: center !important;
             font-size: 20px;
             color: white;
 			background-color: #ff6400;
@@ -1024,6 +1024,9 @@ body:not(.light-mode) .dark-img {
 		
 		body.light-mode .skill-icon {
             background-color: #03045E;
+			display: flex;
+			align-items: flex-start;
+            justify-content: flex-start;
         }
 		
 		.skill-icon > i {
@@ -1136,7 +1139,7 @@ body:not(.light-mode) .dark-img {
                 left: auto;
                 top: auto;
                 transform: none;
-                width: 100%;
+                width: 92vw !important;
                 max-width: 500px;
                 margin: 40px auto;
                 margin-bottom: 40px;
@@ -1144,7 +1147,7 @@ body:not(.light-mode) .dark-img {
 
             .sticky-nav {
                 position: fixed;
-                left: 10vw;
+                left: 8vw !important; 
                 bottom: 20px;
                 margin: 0;
                 padding: 12px;
@@ -1918,7 +1921,7 @@ body:not(.light-mode) .dark-img {
             <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-bottom: 40px;">
                 <div class="project-card">
                     <div class="project-image">
-                        🤖
+                        <i class="fa-solid fa-chart-column"></i>
                         <div class="project-overlay"></div>
                     </div>
                     <div class="project-content">
@@ -1943,8 +1946,8 @@ body:not(.light-mode) .dark-img {
                     <div class="project-content">
                         <div class="project-header">
                             <div>
-                                <h3 class="project-title">Flexisoft</h3>
-                                <p class="project-meta">SaaS & Startup • 6 Pages</p>
+                                <h3 class="project-title">Project 2</h3>
+                                <p class="project-meta">sub-text</p>
                             </div>
                         </div>
                         <a href="#" class="project-link">
@@ -1962,8 +1965,8 @@ body:not(.light-mode) .dark-img {
                     <div class="project-content">
                         <div class="project-header">
                             <div>
-                                <h3 class="project-title">Excludia</h3>
-                                <p class="project-meta">Digital Agency • 8 Pages</p>
+                                <h3 class="project-title">Project 3</h3>
+                                <p class="project-meta">sub-text</p>
                             </div>
                         </div>
                         <a href="#" class="project-link">
@@ -1981,8 +1984,8 @@ body:not(.light-mode) .dark-img {
                     <div class="project-content">
                         <div class="project-header">
                             <div>
-                                <h3 class="project-title">CryptoraHub</h3>
-                                <p class="project-meta">Crypto & Web3 • 7 Pages</p>
+                                <h3 class="project-title">Project 4</h3>
+                                <p class="project-meta">sub-text</p>
                             </div>
                         </div>
                         <a href="#" class="project-link">
@@ -2000,8 +2003,8 @@ body:not(.light-mode) .dark-img {
                     <div class="project-content">
                         <div class="project-header">
                             <div>
-                                <h3 class="project-title">CryptoraHub</h3>
-                                <p class="project-meta">Crypto & Web3 • 7 Pages</p>
+                                <h3 class="project-title">Project 5</h3>
+                                <p class="project-meta">sub-text</p>
                             </div>
                         </div>
                         <a href="#" class="project-link">
@@ -2019,8 +2022,8 @@ body:not(.light-mode) .dark-img {
                     <div class="project-content">
                         <div class="project-header">
                             <div>
-                                <h3 class="project-title">CryptoraHub</h3>
-                                <p class="project-meta">Crypto & Web3 • 7 Pages</p>
+                                <h3 class="project-title">Project 6</h3>
+                                <p class="project-meta">sub-text</p>
                             </div>
                         </div>
                         <a href="#" class="project-link">
@@ -2038,8 +2041,8 @@ body:not(.light-mode) .dark-img {
                     <div class="project-content">
                         <div class="project-header">
                             <div>
-                                <h3 class="project-title">CryptoraHub</h3>
-                                <p class="project-meta">Crypto & Web3 • 7 Pages</p>
+                                <h3 class="project-title">Project 7</h3>
+                                <p class="project-meta">sub-text</p>
                             </div>
                         </div>
                         <a href="#" class="project-link">
