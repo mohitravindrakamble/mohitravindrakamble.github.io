@@ -626,7 +626,7 @@ body:not(.light-mode) .dark-img {
         /* Contact Form */
         .contact-grid {
             display: grid;
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: none;
             gap: 40px;
             color: white;
         }
@@ -1038,7 +1038,6 @@ body:not(.light-mode) .dark-img {
 		}
 		
 		body.light-mode .skill-pad {
-            color: #02035d;	
 			background-color: #0096c7;
         }
 
@@ -1145,12 +1144,11 @@ body:not(.light-mode) .dark-img {
 
             .sticky-nav {
                 position: fixed;
-                left: 20px;
-                right: 20px;
+                left: 10vw;
                 bottom: 20px;
-                width: auto;
                 margin: 0;
                 padding: 12px;
+				width: 85vw;
             }
 
             .nav-container {
@@ -1181,7 +1179,7 @@ body:not(.light-mode) .dark-img {
             }
 
             .stats {
-                grid-template-columns: repeat(2, 1fr);
+                grid-template-columns: repeat(3, 1fr);
                 gap: 30px;
             }
 
@@ -1219,12 +1217,12 @@ body:not(.light-mode) .dark-img {
             }
 
             .stats {
-                grid-template-columns: 1fr;
+                grid-template-columns: repeat(3, 1fr);
                 gap: 20px;
             }
 
             .contact-grid {
-                grid-template-columns: 1fr;
+                grid-template-columns: none !important;
             }
 
             .hero-title, .hero-subtitle {
